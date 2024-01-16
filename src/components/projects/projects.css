@@ -1,0 +1,93 @@
+
+
+.projects__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    padding-bottom: 3rem;
+}
+
+.projects__item{
+    background-color: var(--color-bg-variant);
+    padding: 1rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.projects__item:hover{
+    border-color: var(--color-primary-variant);
+    background: transparent;
+
+}
+.projects__item-image{
+    border-radius: 1.5rem;
+    overflow: hidden;
+    width: 20vw;
+    height: 40vh;
+   
+   
+}
+.projects__item-image img{
+    width: 100%;
+    height: 100%;
+    transition-property: width height;
+    transition-duration: 1s;
+}
+
+.projects__item-image img:hover{
+    width: 22vw;
+    height: 42vh;
+}
+.projects__item h3{
+    margin: 1.2rem 0 2rem;
+}
+
+.projects__item-cta{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.project_btn{
+    display: flex;
+    text-align: center;
+}
+
+
+               /* Media Query for medium devices */
+
+               @media screen and (max-width:1024px) { 
+              .projects__container{
+                grid-template-columns: 1fr 1fr;
+                gap: 1.2rem;
+
+              }
+              .projects__item-image{
+                width: 38vw;
+                height: 44vh;
+              }
+              .projects__item-image img:hover{
+   
+                width: 40vw;
+                height: 45vh;
+            }
+                
+             }   
+             
+             
+                       /* Media Query for small devices */
+        
+                       @media screen and (max-width:600px) { 
+                        .projects__container{
+                            grid-template-columns: 1fr;
+                            gap: 1rem;
+                        }
+                        .projects__item-image{
+                            width: 85vw;
+                            height: 44vh;
+                          }
+                          .projects__item-image img:hover{
+                            width: 87vw;
+                            height: 45vh;
+                        }
+
+                       }

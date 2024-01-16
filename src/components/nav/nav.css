@@ -1,0 +1,39 @@
+/* nav{
+    background: #efededeb;
+    width: 90vw;
+    display: block;
+    padding: 0.7rem 3rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    top: 2rem;
+    display: flex;
+    gap: 2rem;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6rem 1.2rem 0.3rem 1.2rem;
+    backdrop-filter: blur(15px);
+    
+
+}
+
+nav a{
+    background: transparent;
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    color: black;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background: rgba(212, 210, 210, 0.3);
+}
+
+nav a.active{
+    background: var(--color-primary);
+    color: var(--color-bg);
+} */

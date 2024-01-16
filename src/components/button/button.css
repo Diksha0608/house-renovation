@@ -1,0 +1,17 @@
+.section-btn{
+    background: #ffcc33;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 12px 30px;
+    margin-top: 22px;
+    text-transform: uppercase;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    text-decoration: none;
+}
+.section-btn:hover{
+    background: #fff;
+    color: #ffcc33;
+}
